@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php get_header(); ?>aaaaa
+<?php get_header(); ?>
 
    <div class="front-page-top-section clearfix">
       <div class="widget_slider_area">
