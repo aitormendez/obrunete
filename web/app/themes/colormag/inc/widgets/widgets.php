@@ -405,14 +405,28 @@ class colormag_highlighted_posts_widget extends WP_Widget {
          $get_featured_posts = new WP_Query( array(
             'posts_per_page'        => $number,
             'post_type'             => 'post',
-            'ignore_sticky_posts'   => true
+            'ignore_sticky_posts'   => true,
+            'meta_query' => array(
+                array(
+                    'key' => 'featured', // name of custom field
+                    'value' => '"highlight"', // matches exactly "red"
+                    'compare' => 'LIKE'
+                )
+            )
          ) );
       }
       else {
          $get_featured_posts = new WP_Query( array(
             'posts_per_page'        => $number,
             'post_type'             => 'post',
-            'category__in'          => $category
+            'category__in'          => $category,
+            'meta_query' => array(
+                array(
+                    'key' => 'featured', // name of custom field
+                    'value' => '"highlight"', // matches exactly "red"
+                    'compare' => 'LIKE'
+                )
+            )
          ) );
       }
       echo $before_widget;
