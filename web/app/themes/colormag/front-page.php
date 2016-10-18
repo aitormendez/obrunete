@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php get_header(); ?>
+<?php get_header(); ?>aaaaa
 
    <div class="front-page-top-section clearfix">
       <div class="widget_slider_area">
@@ -62,7 +62,7 @@
          }
          if (get_theme_mod('colormag_hide_blog_front', 0) == 0): ?>
 
-            <div class="article-container">
+            <!-- ELIMINADO <div class="article-container">
                <?php if ( have_posts() ) : ?>
 
                   <?php while ( have_posts() ) : the_post(); ?>
@@ -84,7 +84,7 @@
                   <?php get_template_part( 'no-results', 'none' ); ?>
 
                <?php endif; ?>
-            </div>
+            </div> -->
          <?php endif; ?>
          </div>
       </div>
