@@ -605,7 +605,7 @@ class colormag_featured_posts_widget extends WP_Widget {
                   }
                   ?>
                   <div class="article-content">
-                     <?php colormag_colored_category(); ?>
+                     <!-- <?php colormag_colored_category(); ?> -->
                      <h3 class="entry-title">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
                      </h3>
@@ -763,7 +763,7 @@ class colormag_featured_posts_vertical_widget extends WP_Widget {
                   }
                   ?>
                   <div class="article-content">
-                     <?php colormag_colored_category(); ?>
+                     <!-- <?php colormag_colored_category(); ?> -->
                      <h3 class="entry-title">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
                      </h3>
