@@ -2123,6 +2123,14 @@ a#scroll-up:hover {
    margin-bottom: 15px;
    padding-bottom: 0;
 }
+.widget_featured_posts .widget-title a {
+   display: block;
+	 margin-bottom: 5px;
+	 color: black;
+}
+.widget_featured_posts .widget-title a:hover {
+	color: #04a6b5;
+}
 .widget_featured_posts .widget-title span {
    background-color: #289dcc;
    color: #fff;
