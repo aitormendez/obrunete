@@ -1275,16 +1275,17 @@ li.default-menu {
 	width: 60%;
 }
 #secondary .widget-title {
-	border-bottom: 2px solid #289dcc;
+	border-bottom: 2px solid black !important;
    font-size: 18px;
    margin-bottom: 15px;
    padding-bottom: 0;
 }
 #secondary .widget-title span {
-   background-color: #289dcc;
-   color: #fff;
-   padding: 6px 12px;
-   display: inline-block;
+   background-color: transparent !important;
+   color: black;
+   padding: 0;
+	 margin-bottom: 5px;
+   display: block;
 }
 #secondary .widget, .error-404 .widget {
 	margin-bottom: 35px;
@@ -2082,7 +2083,7 @@ a#scroll-up:hover {
    padding: 3px 10px;
 }
 .widget_featured_posts .article-content .entry-title {
-   padding: 10px 0 0;
+   padding: 0;
    font-size: 22px;
 }
 .widget_featured_posts .article-content .entry-title a {
@@ -2122,6 +2123,7 @@ a#scroll-up:hover {
    font-size: 18px;
    margin-bottom: 15px;
    padding-bottom: 0;
+
 }
 .widget_featured_posts .widget-title a {
    display: block;
