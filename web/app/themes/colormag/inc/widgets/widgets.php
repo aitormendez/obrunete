@@ -489,7 +489,7 @@ class colormag_highlighted_posts_widget extends WP_Widget {
 }
 
 /**
- * Featured Posts widget
+ * Featured Posts widget SUPERIOR CENTRADO
  */
 class colormag_featured_posts_widget extends WP_Widget {
 
@@ -584,7 +584,9 @@ class colormag_featured_posts_widget extends WP_Widget {
             $border_color = '';
             $title_color = '';
          }
-         if ( !empty( $title ) ) { echo '<h3 class="widget-title" '. $border_color .'><span ' . $title_color .'>'. esc_html( $title ) .'</span></h3>'; }
+         if ( !empty( $title ) ) {
+           $category_link = get_category_link( $category );
+           echo '<h3 class="widget-title" '. $border_color .'><a href=\"'.$category_link.'\">'. esc_html( $title ) .'</a></h3>'; }
          if( !empty( $text ) ) { ?> <p> <?php echo esc_textarea( $text ); ?> </p> <?php } ?>
          <?php
          $i=1;
@@ -742,7 +744,9 @@ class colormag_featured_posts_vertical_widget extends WP_Widget {
             $border_color = '';
             $title_color = '';
          }
-         if ( !empty( $title ) ) { echo '<h3 class="widget-title" '. $border_color .'><span ' . $title_color .'>'. esc_html( $title ) .'</span></h3>'; }
+         if ( !empty( $title ) ) {
+           $category_link = get_category_link( $category );
+           echo '<h3 class="widget-title" '. $border_color .'><a href=\"'.$category_link.'\">'. esc_html( $title ) .'</a></h3>'; }
          if( !empty( $text ) ) { ?> <p> <?php echo esc_textarea( $text ); ?> </p> <?php } ?>
          <?php
          $i=1;
