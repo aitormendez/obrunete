@@ -44,7 +44,8 @@
     "wpackagist-theme/mh-magazine-lite": "*",
     "wpackagist-theme/colormag": "*",
     "wpackagist-theme/merlin": "*",
-    "wpackagist-plugin/debug-bar": "*"
+    "wpackagist-plugin/debug-bar": "*",
+    "wpackagist-plugin/contact-form-7": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
