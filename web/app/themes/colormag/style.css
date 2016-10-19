@@ -706,7 +706,8 @@ nav li > ol {
    color: #ffffff;
 	display: block;
 	float: none;
-	font-size: 14px;
+	font-size: 12px;
+	letter-spacing: 1px;
    font-weight: 600;
 	padding: 10px 12px;
    text-transform: uppercase;
@@ -2165,10 +2166,13 @@ a#scroll-up:hover {
 }
 .widget_featured_posts .single-article {
    background-color: #ffffff;
-   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	 border-bottom: 2px dotted black;
+}
+.widget_featured_posts .single-article:last-child {
+	border-bottom: none;
 }
 .widget_featured_posts .article-content {
-   padding: 0 15px 5px;
+   padding: 0;
 }
 .widget_featured_posts .article-content .below-entry-meta {
    margin-bottom: 12px;
@@ -2611,4 +2615,8 @@ Responsive Structure
 /* search result tile hide */
 .search h1.page-title {
    display: none;
+}
+
+#site-navigation {
+	border-top: none !important;
 }
