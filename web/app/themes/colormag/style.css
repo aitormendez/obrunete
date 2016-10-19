@@ -2133,6 +2133,10 @@ a#scroll-up:hover {
 .widget_featured_posts .widget-title a:hover {
 	color: #04a6b5;
 }
+.widget_featured_posts .widget-title a {
+   display: inline-block;
+	 margin-bottom: 5px;
+}
 .widget_featured_posts .widget-title span {
    background-color: #289dcc;
    color: #fff;
