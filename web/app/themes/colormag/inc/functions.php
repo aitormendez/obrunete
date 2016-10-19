@@ -20,7 +20,8 @@ function colormag_scripts_styles_method() {
    /**
    * Using google font
    */
-   wp_enqueue_style( 'colormag_google_fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,600' );
+
+   wp_enqueue_style( 'colormag_google_fonts', '//fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' );
 
    /**
 	* Loads our main stylesheet.
