@@ -1536,10 +1536,11 @@ a#scroll-up:hover {
    padding-bottom: 0;
 }
 .page-header .page-title span {
-   background-color: #289dcc;
-   color: #fff;
-   padding: 6px 12px;
-   display: inline-block;
+   background-color: transparent !important;
+   color: black;
+   padding: 0;
+	 margin-bottom: 5px;
+   display: block;
 }
 .archive #content .post p {
    font-size: 14px;
@@ -2431,6 +2432,7 @@ a#scroll-up:hover {
 }
 .post .featured-image {
    text-align: center;
+	 margin-bottom: 30px;
 }
 #site-navigation {
    z-index: 999;
@@ -2625,4 +2627,28 @@ Responsive Structure
 
 #site-navigation {
 	border-top: none !important;
+}
+
+body {
+	color: black;
+}
+
+.taxonomy-description {
+	border-bottom: 2px dotted black;
+	margin-bottom: 50px;
+	padding-bottom: 7px;
+}
+
+.archive #content .post .article-content .above-entry-meta {
+	display: none;
+}
+
+#content .post {
+	box-shadow: none;
+	border-bottom: 2px dotted black;
+	padding-bottom: 15px;
+}
+
+#content .post .article-content {
+	padding: 0;
 }
