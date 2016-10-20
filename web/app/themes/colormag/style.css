@@ -965,10 +965,33 @@ li.default-menu {
 .default-wp-page .previous {
 	float: left;
 	padding: 30px 0;
+	width: 30%;
+}
+.default-wp-page .previous a {
+	display: block;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+.default-wp-page .previous a:hover {
+	color: black;
 }
 .default-wp-page .next {
 	float: right;
 	padding: 30px 0;
+	width: 30%;
+}
+
+.default-wp-page .next a {
+	display: block;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+.default-wp-page .next a:hover {
+	color: black;
+}
+
+.meta-nav {
+
 }
 
 /* =WP PAGENAVI PLUGIN
@@ -1093,16 +1116,20 @@ li.default-menu {
 /* =COMMENTS
 ----------------------------------------------- */
 #comments {
-	border-top: 1px solid #F8F8F8;
+	border-top: 2px dotted black;
    padding-top: 15px;
 }
 #comments i {
-	font-size: 16px;
+	font-size: 12px;
 	color: #AAAAAA;
-	padding-right: 10px;
+	padding-right: 7px;
 }
 .comments-title {
-	font-size: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 .comment-content a {
 	word-wrap: break-word;
@@ -1129,8 +1156,8 @@ li.default-menu {
 .comments-area .comment-date-time,
 .comments-area .comment-author-link {
 	display: block;
-	margin-left: 100px;
 	color: #999999;
+	font-size: 12px;
 }
 #content .comments-area article header cite a:hover,
 #content .comments-area a.comment-edit-link:hover,
@@ -1157,14 +1184,14 @@ li.default-menu {
 	font-weight: normal;
 	text-decoration: inherit;
 	color: #AAAAAA;
-	font-size: 16px;
-	padding-right: 10px;
+	font-size: 12px;
+	padding-right: 7px;
 }
 .comment-content {
 	padding: 15px 15px 25px;
 	background-color: #F8F8F8;
-	border: 1px solid #EAEAEA;
-	border-radius: 2px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
 }
 .comment {
 	margin-bottom: 20px;
@@ -1223,10 +1250,17 @@ li.default-menu {
 /* =COMMENT FORM
 ----------------------------------------------- */
 #respond {
+padding-top: 15px;
+border-top: 2px dotted black;
 }
 #respond h3#reply-title {
-	font-size: 22px;
-	line-height: 28px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
 }
 #respond h3#reply-title #cancel-comment-reply-link {
 	margin-left: 10px;
@@ -1234,10 +1268,12 @@ li.default-menu {
 	font-weight: normal;
 	font-size: 16px;
 	font-size: 1.6rem;
+	font-family: 'Noto Sans', sans-serif;
 }
 #respond form label {
 	display: block;
 	line-height: 1.5;
+	font-family: 'Noto Sans', sans-serif;
 }
 #respond form input[type="text"],
 #respond form textarea {
@@ -1256,6 +1292,11 @@ li.default-menu {
 }
 .required {
 	color: red;
+}
+
+.logged-in-as {
+	font-size: 14px;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 /* =WIDGETS
@@ -2644,11 +2685,19 @@ body {
 }
 
 #content .post {
-	box-shadow: none;
+	box-shadow: none !important;
 	border-bottom: 2px dotted black;
 	padding-bottom: 15px;
 }
 
 #content .post .article-content {
 	padding: 0;
+}
+
+*:hover {
+	text-decoration: none !important;
+}
+
+.single .above-entry-meta {
+	display: none;
 }
