@@ -991,7 +991,8 @@ li.default-menu {
 }
 
 .meta-nav {
-
+	font-weight: bold;
+	color: black;
 }
 
 /* =WP PAGENAVI PLUGIN
@@ -1221,6 +1222,7 @@ li.default-menu {
 }
 .comment-list {
 	margin-bottom: 25px;
+	border-bottom: 2px dotted black;
 }
 .comment-list .children {
    margin-left: 20px;
@@ -1251,7 +1253,6 @@ li.default-menu {
 ----------------------------------------------- */
 #respond {
 padding-top: 15px;
-border-top: 2px dotted black;
 }
 #respond h3#reply-title {
 	font-family: 'Noto Sans', sans-serif;
@@ -2166,7 +2167,7 @@ a#scroll-up:hover {
    margin-bottom: 30px;
 }
 .widget_featured_posts .widget-title {
-   border-bottom: 2px solid #289dcc;
+   border-bottom: 2px solid black;
    font-size: 18px;
    margin-bottom: 15px;
    padding-bottom: 0;
