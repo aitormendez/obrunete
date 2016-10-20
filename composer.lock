@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0aabcf626265704f1919d19145bf1eeb",
-    "content-hash": "16376018712f15da869b498ecd4bd0f9",
+    "hash": "bcbac977b0fe15f4a1995bd3eef486bb",
+    "content-hash": "142a7c0cb453f3ab763be08a401a498d",
     "packages": [
         {
             "name": "composer/installers",
@@ -420,6 +420,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/google-maps",
+            "version": "2.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-maps/",
+                "reference": "tags/2.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-maps.2.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-maps/"
         },
         {
             "name": "wpackagist-theme/colormag",

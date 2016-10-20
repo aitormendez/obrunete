@@ -515,6 +515,7 @@ body {
 }
 #header-right-section {
 	float: right;
+	width: 250px;
 }
 #header-right-section .widget {
 	text-align: right;
