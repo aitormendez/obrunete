@@ -2703,16 +2703,17 @@ body {
 	display: none;
 }
 
-.textwidget p {
+.textwidget p, .widget_recent_entries li {
+	padding-top: 0 !important;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px dotted black;
 }
 
-.textwidget a:hover {
+.textwidget a:hover, .widget_recent_entries a:hover {
 	color: black;
 }
 
-.textwidget p:last-child {
+.textwidget p:last-child, .widget_recent_entries li:last-child {
 	border-bottom: none;
 }
