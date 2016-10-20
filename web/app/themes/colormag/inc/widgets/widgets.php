@@ -27,6 +27,17 @@ function colormag_widgets_init() {
       'after_title'     => '</span></h3>'
    ) );
 
+   // Registering main right frontpage sidebar
+   register_sidebar( array(
+      'name'            => esc_html__( 'Right Frontpage Sidebar', 'colormag' ),
+      'id'              => 'colormag_right_frontpage_sidebar',
+      'description'     => esc_html__( 'Shows widgets at Right side in frontpage.', 'colormag' ),
+      'before_widget'   => '<aside id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</aside>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
    // Registering main left sidebar
    register_sidebar( array(
       'name'            => esc_html__( 'Left Sidebar', 'colormag' ),
@@ -125,6 +136,7 @@ function colormag_widgets_init() {
       'before_title'    => '<h3 class="widget-title"><span>',
       'after_title'     => '</span></h3>'
    ) );
+
 
    // Registering Error 404 Page sidebar
    register_sidebar( array(

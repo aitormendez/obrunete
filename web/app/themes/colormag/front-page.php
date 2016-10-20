@@ -90,5 +90,4 @@
       </div>
       <?php colormag_sidebar_select(); ?>
    </div>
-
 <?php get_footer(); ?>

@@ -13,6 +13,8 @@
 		<?php
 			if( is_page_template( 'page-templates/contact.php' ) ) {
 				$sidebar = 'colormag_contact_page_sidebar';
+			} elseif (is_front_page( 'page-templates/contact.php' )) {
+				$sidebar = 'colormag_right_frontpage_sidebar';
 			}
 			else {
 				$sidebar = 'colormag_right_sidebar';
