@@ -2702,3 +2702,17 @@ body {
 .single .above-entry-meta {
 	display: none;
 }
+
+.textwidget p {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted black;
+}
+
+.textwidget a:hover {
+	color: black;
+}
+
+.textwidget p:last-child {
+	border-bottom: none;
+}
