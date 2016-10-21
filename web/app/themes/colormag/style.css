@@ -2727,3 +2727,31 @@ body {
 	padding-top: 15px;
 	border-top: 2px dotted black;
 }
+.mashsb-stretched .mashsb-buttons {
+	width: 30px;
+}
+.mashsb-stretched .mashsb-buttons a {
+	display: inline-block;
+	min-width: 0;
+	background-color: black;
+	border-radius: 3px;
+	margin-right: 0;
+}
+
+[class^="mashicon-"] .icon::before {
+	font-size: 14px;
+}
+
+.mashsb-count {
+	display: block;
+	float: none !important;
+	font-family: 'Noto Serif', serif;
+	color: black;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.mashsb-count .mashsb-sharetext {
+	font-family: 'Noto Serif', serif;
+	color: black;
+}
