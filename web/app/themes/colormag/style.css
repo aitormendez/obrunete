@@ -2168,7 +2168,7 @@ a#scroll-up:hover {
    margin-bottom: 30px;
 }
 .widget_featured_posts .widget-title {
-   border-bottom: 2px solid black;
+   border-bottom: 2px solid black !important;
    font-size: 18px;
    margin-bottom: 15px;
    padding-bottom: 0;
@@ -2717,4 +2717,8 @@ body {
 
 .textwidget p:last-child, .widget_recent_entries li:last-child {
 	border-bottom: none;
+}
+
+*:focus, *:active {
+	outline: none;
 }
