@@ -2722,3 +2722,8 @@ body {
 *:focus, *:active {
 	outline: none;
 }
+
+#secondary .following-post {
+	padding-top: 15px;
+	border-top: 2px dotted black;
+}

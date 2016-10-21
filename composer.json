@@ -46,6 +46,8 @@
     "wpackagist-theme/merlin": "*",
     "wpackagist-plugin/debug-bar": "*",
     "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/amp": "*",
+    "wpackagist-plugin/mashsharer": "*",
     "wpackagist-plugin/google-maps": "*"
   },
   "require-dev": {

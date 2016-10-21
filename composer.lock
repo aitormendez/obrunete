@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bcbac977b0fe15f4a1995bd3eef486bb",
-    "content-hash": "142a7c0cb453f3ab763be08a401a498d",
+    "hash": "b000a9a78b5990c4f480753657e4c860",
+    "content-hash": "12b644f23af983f597d3ea55021a9247",
     "packages": [
         {
             "name": "composer/installers",
@@ -362,6 +362,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/amp",
+            "version": "0.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amp/",
+                "reference": "tags/0.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amp/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "4.5.1",
             "source": {
@@ -440,6 +460,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-maps/"
+        },
+        {
+            "name": "wpackagist-plugin/mashsharer",
+            "version": "3.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mashsharer/",
+                "reference": "tags/3.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mashsharer/"
         },
         {
             "name": "wpackagist-theme/colormag",
