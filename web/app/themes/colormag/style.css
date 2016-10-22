@@ -2759,3 +2759,7 @@ body {
 .mashsb-container {
 	padding: 0;
 }
+
+.fa.search-top {
+	right: 0;
+}
