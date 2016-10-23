@@ -2785,3 +2785,17 @@ body {
 #colophon .textwidget p {
 	border-bottom: 1px dotted white;
 }
+
+.licencia {
+	text-align: center;
+	border-top: 2px dotted white;
+	padding: 15px 0;
+}
+
+.licencia img, .licencia p {
+	margin-bottom: 5px;
+}
+
+.licencia p {
+	color: white;
+}

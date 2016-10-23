@@ -29,8 +29,17 @@
    						<?php if( get_theme_mod( 'colormag_social_link_activate', 0 ) == 1 ) { colormag_social_links(); } ?>
                   </div>
                   <div class="footer-socket-left-sectoin">
-   						<?php do_action( 'colormag_footer_copyright' ); ?>
+   						<!-- <?php do_action( 'colormag_footer_copyright' ); ?> -->
                   </div>
+									<div class="licencia">
+										<!-- <?php do_action( 'colormag_footer_copyright' ); ?> -->
+										<p>
+											<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+										</p>
+										<p>
+											Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>. Se permite la utilización de los contenidos manteniendo los términos de la licencia.
+										</p>
+										</div>
 					</div>
 				</div>
 			</div>
