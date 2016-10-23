@@ -1308,7 +1308,7 @@ padding-top: 15px;
 	padding: 5px 0;
 }
 #colophon .widget ul li {
-	border-bottom: 1px solid #444444;
+	border-bottom: 1px dotted white;
 }
 #secondary .widget ul li li, #colophon .widget ul li li {
 	border-bottom: none;
@@ -2762,4 +2762,24 @@ body {
 
 .fa.search-top {
 	right: 0;
+}
+#colophon h3 span {
+	background-color: transparent;
+	padding: 0;
+	margin-bottom: 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+#colophon h3 {
+	border-bottom: 2px solid white;
+}
+#colophon h3 span, #colophon p, #colophon p a {
+	font-family: 'Noto Sans', sans-serif !important;
+}
+
+#colophon .textwidget p {
+	border-bottom: 1px dotted white;
 }
