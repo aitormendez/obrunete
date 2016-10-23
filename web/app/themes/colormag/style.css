@@ -477,6 +477,7 @@ body {
 #header-text-nav-container {
 	background-color: #FFFFFF;
 }
+
 #header-text-nav-wrap {
 	padding: 20px 0 25px;
 }
@@ -515,7 +516,7 @@ body {
 }
 #header-right-section {
 	float: right;
-	width: 250px;
+	width: 200px;
 }
 #header-right-section .widget {
 	text-align: right;
