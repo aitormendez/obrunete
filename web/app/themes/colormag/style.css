@@ -763,6 +763,7 @@ li.default-menu {
 .main-navigation li.page_item_has_children > a:after {
    content: "\f107";
    color: white;
+	 line-height: 0.1
 }
 .main-navigation li li.menu-item-has-children > a:after,
 .main-navigation li li.page_item_has_children > a:after {
@@ -795,7 +796,7 @@ li.default-menu {
 .main-navigation ul li ul {
 	position: absolute;
 	width: 200px;
-	top: 42px;
+	top: 39px;
 }
 .main-navigation ul li ul li {
 	float: none;
