@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b000a9a78b5990c4f480753657e4c860",
-    "content-hash": "12b644f23af983f597d3ea55021a9247",
+    "hash": "3755c178dac72d02a2a5ab4eda8c538f",
+    "content-hash": "6c17a644fcc16185da4ea74d41ee45fa",
     "packages": [
         {
             "name": "composer/installers",
@@ -343,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.10"
+                "reference": "tags/4.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -463,15 +463,15 @@
         },
         {
             "name": "wpackagist-plugin/mashsharer",
-            "version": "3.3.3",
+            "version": "3.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mashsharer/",
-                "reference": "tags/3.3.3"
+                "reference": "tags/3.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.3.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -480,66 +480,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mashsharer/"
-        },
-        {
-            "name": "wpackagist-theme/colormag",
-            "version": "1.1.5",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/colormag/",
-                "reference": "1.1.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/colormag.1.1.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/colormag/"
-        },
-        {
-            "name": "wpackagist-theme/merlin",
-            "version": "1.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/merlin/",
-                "reference": "1.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/merlin.1.2.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/merlin/"
-        },
-        {
-            "name": "wpackagist-theme/mh-magazine-lite",
-            "version": "2.5.3",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/mh-magazine-lite/",
-                "reference": "2.5.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/mh-magazine-lite.2.5.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/mh-magazine-lite/"
         }
     ],
     "packages-dev": [
