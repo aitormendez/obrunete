@@ -552,7 +552,7 @@ body {
 ----------------------------------------------- */
 .fa {
 	font-size: 22px;
-	color: #CCCCCC;
+	color: black;
 }
 .social-links {
 	text-align: center;
@@ -574,8 +574,8 @@ body {
 .social-links i.fa:hover {
 	color: #289dcc;
 }
-.social-links i.fa-twitter {color: #1BB2E9;}
-.social-links i.fa-facebook {color: #3B5A9B;}
+.social-links i.fa-twitter {color: black;} /* #1BB2E9 */
+.social-links i.fa-facebook {color: black;} /* #3B5A9B */
 .social-links i.fa-youtube {color: #ED3F41;}
 .social-links i.fa-vimeo-square {color: #44BBFF;}
 .social-links i.fa-skype {color: #009CEF;}
@@ -2798,4 +2798,8 @@ body {
 
 .licencia p {
 	color: white;
+}
+
+.footer-socket-right-section .social-links {
+	display: none;
 }
