@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3755c178dac72d02a2a5ab4eda8c538f",
-    "content-hash": "6c17a644fcc16185da4ea74d41ee45fa",
+    "hash": "45988a5824b65071869824c713cb585e",
+    "content-hash": "12ff9e814f56efbc2027e4d90564134b",
     "packages": [
         {
             "name": "composer/installers",
@@ -362,16 +362,16 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/amp",
-            "version": "0.4.2",
+            "name": "wpackagist-plugin/all-in-one-event-calendar",
+            "version": "2.5.13",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/amp/",
-                "reference": "tags/0.4.2"
+                "url": "https://plugins.svn.wordpress.org/all-in-one-event-calendar/",
+                "reference": "tags/2.5.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-event-calendar.2.5.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -379,7 +379,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amp/"
+            "homepage": "https://wordpress.org/plugins/all-in-one-event-calendar/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
@@ -420,6 +420,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/footnotes-for-wordpress",
+            "version": "2016.0826",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/footnotes-for-wordpress/",
+                "reference": "tags/2016.0826"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/footnotes-for-wordpress.2016.0826.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/footnotes-for-wordpress/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
@@ -480,6 +500,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mashsharer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-d3",
+            "version": "2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-d3/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-d3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-d3/"
         }
     ],
     "packages-dev": [
